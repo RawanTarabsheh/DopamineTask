@@ -8,6 +8,7 @@
 <body>
     <h1>Contact Message from {{ $name }}</h1>
     <p>Email: {{ $email }}</p>
+    <p>Subject: {{ $userSubject }}</p>
     <p>Message:</p>
     <p>{!! $messageContent !!}</p>
 </body>
